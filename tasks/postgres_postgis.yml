@@ -20,9 +20,9 @@
   become: yes
   with_items:
    - python-psycopg2
-   - postgresql-9.5
-   - postgresql-contrib-9.5
-   - postgresql-9.5-postgis-2.3
+   - postgresql-9.6
+   - postgresql-contrib-9.6
+   - postgresql-9.6-postgis-2.3
 
 
 - name: check if postgres cluster is created already
